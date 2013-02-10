@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224F0EBB16C80BCE00E862B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBA16C80BCE00E862B7 /* UIKit.framework */; };
+		224F0EBD16C80BCE00E862B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBC16C80BCE00E862B7 /* Foundation.framework */; };
+		224F0EBF16C80BCE00E862B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBE16C80BCE00E862B7 /* CoreGraphics.framework */; };
+		224F0EC516C80BCE00E862B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224F0EC316C80BCE00E862B7 /* InfoPlist.strings */; };
+		224F0EC716C80BCE00E862B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0EC616C80BCE00E862B7 /* main.m */; };
+		224F0ECB16C80BCF00E862B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0ECA16C80BCF00E862B7 /* AppDelegate.m */; };
+		224F0ECD16C80BCF00E862B7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F0ECC16C80BCF00E862B7 /* Default.png */; };
+		224F0ECF16C80BCF00E862B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F0ECE16C80BCF00E862B7 /* Default@2x.png */; };
+		224F0ED116C80BCF00E862B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224F0ED016C80BCF00E862B7 /* Default-568h@2x.png */; };
+		224F0ED416C80BCF00E862B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0ED316C80BCF00E862B7 /* ViewController.m */; };
+		224F0ED716C80BCF00E862B7 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224F0ED516C80BCF00E862B7 /* ViewController_iPhone.xib */; };
+		224F0EDA16C80BCF00E862B7 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224F0ED816C80BCF00E862B7 /* ViewController_iPad.xib */; };
+		224F0EE216C80BCF00E862B7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */; };
+		224F0EE316C80BCF00E862B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBA16C80BCE00E862B7 /* UIKit.framework */; };
+		224F0EE416C80BCF00E862B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBC16C80BCE00E862B7 /* Foundation.framework */; };
+		224F0EEC16C80BCF00E862B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224F0EEA16C80BCF00E862B7 /* InfoPlist.strings */; };
+		224F0EEF16C80BCF00E862B7 /* RedditImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224F0EE516C80BCF00E862B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224F0EAD16C80BCE00E862B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224F0EB516C80BCE00E862B7;
+			remoteInfo = RedditImageViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224F0EB616C80BCE00E862B7 /* RedditImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224F0EBA16C80BCE00E862B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		224F0EBC16C80BCE00E862B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		224F0EBE16C80BCE00E862B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		224F0EC216C80BCE00E862B7 /* RedditImageViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditImageViewer-Info.plist"; sourceTree = "<group>"; };
+		224F0EC416C80BCE00E862B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		224F0EC616C80BCE00E862B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224F0EC816C80BCE00E862B7 /* RedditImageViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedditImageViewer-Prefix.pch"; sourceTree = "<group>"; };
+		224F0EC916C80BCE00E862B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		224F0ECA16C80BCF00E862B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		224F0ECC16C80BCF00E862B7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		224F0ECE16C80BCF00E862B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		224F0ED016C80BCF00E862B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		224F0ED216C80BCF00E862B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		224F0ED316C80BCF00E862B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224F0ED616C80BCF00E862B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		224F0ED916C80BCF00E862B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		224F0EE016C80BCF00E862B7 /* RedditImageViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditImageViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		224F0EE916C80BCF00E862B7 /* RedditImageViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditImageViewerTests-Info.plist"; sourceTree = "<group>"; };
+		224F0EEB16C80BCF00E862B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		224F0EED16C80BCF00E862B7 /* RedditImageViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditImageViewerTests.h; sourceTree = "<group>"; };
+		224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditImageViewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224F0EB316C80BCE00E862B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F0EBB16C80BCE00E862B7 /* UIKit.framework in Frameworks */,
+				224F0EBD16C80BCE00E862B7 /* Foundation.framework in Frameworks */,
+				224F0EBF16C80BCE00E862B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224F0EDC16C80BCF00E862B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F0EE216C80BCF00E862B7 /* SenTestingKit.framework in Frameworks */,
+				224F0EE316C80BCF00E862B7 /* UIKit.framework in Frameworks */,
+				224F0EE416C80BCF00E862B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224F0EAB16C80BCE00E862B7 = {
+			isa = PBXGroup;
+			children = (
+				224F0EC016C80BCE00E862B7 /* RedditImageViewer */,
+				224F0EE716C80BCF00E862B7 /* RedditImageViewerTests */,
+				224F0EB916C80BCE00E862B7 /* Frameworks */,
+				224F0EB716C80BCE00E862B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224F0EB716C80BCE00E862B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224F0EB616C80BCE00E862B7 /* RedditImageViewer.app */,
+				224F0EE016C80BCF00E862B7 /* RedditImageViewerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224F0EB916C80BCE00E862B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				224F0EBA16C80BCE00E862B7 /* UIKit.framework */,
+				224F0EBC16C80BCE00E862B7 /* Foundation.framework */,
+				224F0EBE16C80BCE00E862B7 /* CoreGraphics.framework */,
+				224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		224F0EC016C80BCE00E862B7 /* RedditImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				224F0EC916C80BCE00E862B7 /* AppDelegate.h */,
+				224F0ECA16C80BCF00E862B7 /* AppDelegate.m */,
+				224F0ED216C80BCF00E862B7 /* ViewController.h */,
+				224F0ED316C80BCF00E862B7 /* ViewController.m */,
+				224F0ED516C80BCF00E862B7 /* ViewController_iPhone.xib */,
+				224F0ED816C80BCF00E862B7 /* ViewController_iPad.xib */,
+				224F0EC116C80BCE00E862B7 /* Supporting Files */,
+			);
+			path = RedditImageViewer;
+			sourceTree = "<group>";
+		};
+		224F0EC116C80BCE00E862B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224F0EC216C80BCE00E862B7 /* RedditImageViewer-Info.plist */,
+				224F0EC316C80BCE00E862B7 /* InfoPlist.strings */,
+				224F0EC616C80BCE00E862B7 /* main.m */,
+				224F0EC816C80BCE00E862B7 /* RedditImageViewer-Prefix.pch */,
+				224F0ECC16C80BCF00E862B7 /* Default.png */,
+				224F0ECE16C80BCF00E862B7 /* Default@2x.png */,
+				224F0ED016C80BCF00E862B7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224F0EE716C80BCF00E862B7 /* RedditImageViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				224F0EED16C80BCF00E862B7 /* RedditImageViewerTests.h */,
+				224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */,
+				224F0EE816C80BCF00E862B7 /* Supporting Files */,
+			);
+			path = RedditImageViewerTests;
+			sourceTree = "<group>";
+		};
+		224F0EE816C80BCF00E862B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224F0EE916C80BCF00E862B7 /* RedditImageViewerTests-Info.plist */,
+				224F0EEA16C80BCF00E862B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224F0EB516C80BCE00E862B7 /* RedditImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224F0EF216C80BCF00E862B7 /* Build configuration list for PBXNativeTarget "RedditImageViewer" */;
+			buildPhases = (
+				224F0EB216C80BCE00E862B7 /* Sources */,
+				224F0EB316C80BCE00E862B7 /* Frameworks */,
+				224F0EB416C80BCE00E862B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedditImageViewer;
+			productName = RedditImageViewer;
+			productReference = 224F0EB616C80BCE00E862B7 /* RedditImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		224F0EDF16C80BCF00E862B7 /* RedditImageViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224F0EF516C80BCF00E862B7 /* Build configuration list for PBXNativeTarget "RedditImageViewerTests" */;
+			buildPhases = (
+				224F0EDB16C80BCF00E862B7 /* Sources */,
+				224F0EDC16C80BCF00E862B7 /* Frameworks */,
+				224F0EDD16C80BCF00E862B7 /* Resources */,
+				224F0EDE16C80BCF00E862B7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224F0EE616C80BCF00E862B7 /* PBXTargetDependency */,
+			);
+			name = RedditImageViewerTests;
+			productName = RedditImageViewerTests;
+			productReference = 224F0EE016C80BCF00E862B7 /* RedditImageViewerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224F0EAD16C80BCE00E862B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sam Ward";
+			};
+			buildConfigurationList = 224F0EB016C80BCE00E862B7 /* Build configuration list for PBXProject "RedditImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 224F0EAB16C80BCE00E862B7;
+			productRefGroup = 224F0EB716C80BCE00E862B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224F0EB516C80BCE00E862B7 /* RedditImageViewer */,
+				224F0EDF16C80BCF00E862B7 /* RedditImageViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224F0EB416C80BCE00E862B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F0EC516C80BCE00E862B7 /* InfoPlist.strings in Resources */,
+				224F0ECD16C80BCF00E862B7 /* Default.png in Resources */,
+				224F0ECF16C80BCF00E862B7 /* Default@2x.png in Resources */,
+				224F0ED116C80BCF00E862B7 /* Default-568h@2x.png in Resources */,
+				224F0ED716C80BCF00E862B7 /* ViewController_iPhone.xib in Resources */,
+				224F0EDA16C80BCF00E862B7 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224F0EDD16C80BCF00E862B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F0EEC16C80BCF00E862B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		224F0EDE16C80BCF00E862B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224F0EB216C80BCE00E862B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F0EC716C80BCE00E862B7 /* main.m in Sources */,
+				224F0ECB16C80BCF00E862B7 /* AppDelegate.m in Sources */,
+				224F0ED416C80BCF00E862B7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224F0EDB16C80BCF00E862B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224F0EEF16C80BCF00E862B7 /* RedditImageViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224F0EE616C80BCF00E862B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224F0EB516C80BCE00E862B7 /* RedditImageViewer */;
+			targetProxy = 224F0EE516C80BCF00E862B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224F0EC316C80BCE00E862B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224F0EC416C80BCE00E862B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		224F0ED516C80BCF00E862B7 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224F0ED616C80BCF00E862B7 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		224F0ED816C80BCF00E862B7 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224F0ED916C80BCF00E862B7 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		224F0EEA16C80BCF00E862B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224F0EEB16C80BCF00E862B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224F0EF016C80BCF00E862B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224F0EF116C80BCF00E862B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224F0EF316C80BCF00E862B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedditImageViewer/RedditImageViewer-Prefix.pch";
+				INFOPLIST_FILE = "RedditImageViewer/RedditImageViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		224F0EF416C80BCF00E862B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedditImageViewer/RedditImageViewer-Prefix.pch";
+				INFOPLIST_FILE = "RedditImageViewer/RedditImageViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		224F0EF616C80BCF00E862B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedditImageViewer.app/RedditImageViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedditImageViewer/RedditImageViewer-Prefix.pch";
+				INFOPLIST_FILE = "RedditImageViewerTests/RedditImageViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		224F0EF716C80BCF00E862B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedditImageViewer.app/RedditImageViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedditImageViewer/RedditImageViewer-Prefix.pch";
+				INFOPLIST_FILE = "RedditImageViewerTests/RedditImageViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224F0EB016C80BCE00E862B7 /* Build configuration list for PBXProject "RedditImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224F0EF016C80BCF00E862B7 /* Debug */,
+				224F0EF116C80BCF00E862B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224F0EF216C80BCF00E862B7 /* Build configuration list for PBXNativeTarget "RedditImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224F0EF316C80BCF00E862B7 /* Debug */,
+				224F0EF416C80BCF00E862B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224F0EF516C80BCF00E862B7 /* Build configuration list for PBXNativeTarget "RedditImageViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224F0EF616C80BCF00E862B7 /* Debug */,
+				224F0EF716C80BCF00E862B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224F0EAD16C80BCE00E862B7 /* Project object */;
+}
