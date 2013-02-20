@@ -7,92 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22209E7A16D41CA300F12B75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E4516D41CA200F12B75 /* AppDelegate.m */; };
-		22209E7C16D41CA300F12B75 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22209E4716D41CA300F12B75 /* .gitignore */; };
-		22209E7D16D41CA300F12B75 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E4916D41CA300F12B75 /* DejalActivityView.m */; };
-		22209E7E16D41CA300F12B75 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E4916D41CA300F12B75 /* DejalActivityView.m */; };
-		22209E8016D41CA300F12B75 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22209E4A16D41CA300F12B75 /* License.txt */; };
-		22209E8216D41CA300F12B75 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 22209E4B16D41CA300F12B75 /* README.markdown */; };
 		22209E8516D41CA300F12B75 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5116D41CA300F12B75 /* Background.png */; };
-		22209E8616D41CA300F12B75 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5116D41CA300F12B75 /* Background.png */; };
 		22209E8716D41CA300F12B75 /* Background.psd in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5216D41CA300F12B75 /* Background.psd */; };
-		22209E8816D41CA300F12B75 /* Background.psd in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5216D41CA300F12B75 /* Background.psd */; };
 		22209E8916D41CA300F12B75 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5316D41CA300F12B75 /* Background@2x.png */; };
-		22209E8A16D41CA300F12B75 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5316D41CA300F12B75 /* Background@2x.png */; };
 		22209E8B16D41CA300F12B75 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5416D41CA300F12B75 /* button.png */; };
-		22209E8C16D41CA300F12B75 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5416D41CA300F12B75 /* button.png */; };
 		22209E8D16D41CA300F12B75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5516D41CA300F12B75 /* Default-568h@2x.png */; };
-		22209E8E16D41CA300F12B75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5516D41CA300F12B75 /* Default-568h@2x.png */; };
 		22209E8F16D41CA300F12B75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5616D41CA300F12B75 /* Default.png */; };
-		22209E9016D41CA300F12B75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5616D41CA300F12B75 /* Default.png */; };
 		22209E9116D41CA300F12B75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5716D41CA300F12B75 /* Default@2x.png */; };
-		22209E9216D41CA300F12B75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5716D41CA300F12B75 /* Default@2x.png */; };
 		22209E9316D41CA300F12B75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E5816D41CA300F12B75 /* main.m */; };
-		22209E9416D41CA300F12B75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E5816D41CA300F12B75 /* main.m */; };
-		22209E9516D41CA300F12B75 /* Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E5A16D41CA300F12B75 /* Meme.m */; };
-		22209E9616D41CA300F12B75 /* Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E5A16D41CA300F12B75 /* Meme.m */; };
-		22209E9816D41CA300F12B75 /* RedditImageViewer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22209E5B16D41CA300F12B75 /* RedditImageViewer-Info.plist */; };
-		22209E9B16D41CA300F12B75 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6016D41CA300F12B75 /* MKAnnotationView+WebCache.m */; };
-		22209E9C16D41CA300F12B75 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6016D41CA300F12B75 /* MKAnnotationView+WebCache.m */; };
-		22209E9D16D41CA300F12B75 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6216D41CA300F12B75 /* SDImageCache.m */; };
-		22209E9E16D41CA300F12B75 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6216D41CA300F12B75 /* SDImageCache.m */; };
-		22209E9F16D41CA300F12B75 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6516D41CA300F12B75 /* SDWebImageCompat.m */; };
-		22209EA016D41CA300F12B75 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6516D41CA300F12B75 /* SDWebImageCompat.m */; };
-		22209EA116D41CA300F12B75 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6716D41CA300F12B75 /* SDWebImageDecoder.m */; };
-		22209EA216D41CA300F12B75 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6716D41CA300F12B75 /* SDWebImageDecoder.m */; };
-		22209EA316D41CA300F12B75 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6916D41CA300F12B75 /* SDWebImageDownloader.m */; };
-		22209EA416D41CA300F12B75 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6916D41CA300F12B75 /* SDWebImageDownloader.m */; };
-		22209EA516D41CA300F12B75 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6B16D41CA300F12B75 /* SDWebImageDownloaderOperation.m */; };
-		22209EA616D41CA300F12B75 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6B16D41CA300F12B75 /* SDWebImageDownloaderOperation.m */; };
-		22209EA716D41CA300F12B75 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6D16D41CA300F12B75 /* SDWebImageManager.m */; };
-		22209EA816D41CA300F12B75 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6D16D41CA300F12B75 /* SDWebImageManager.m */; };
-		22209EA916D41CA300F12B75 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7016D41CA300F12B75 /* SDWebImagePrefetcher.m */; };
-		22209EAA16D41CA300F12B75 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7016D41CA300F12B75 /* SDWebImagePrefetcher.m */; };
-		22209EAB16D41CA300F12B75 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7216D41CA300F12B75 /* UIButton+WebCache.m */; };
-		22209EAC16D41CA300F12B75 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7216D41CA300F12B75 /* UIButton+WebCache.m */; };
-		22209EAD16D41CA300F12B75 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7416D41CA300F12B75 /* UIImageView+WebCache.m */; };
-		22209EAE16D41CA300F12B75 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7416D41CA300F12B75 /* UIImageView+WebCache.m */; };
-		22209EAF16D41CA300F12B75 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7516D41CA300F12B75 /* ViewController_iPad.xib */; };
-		22209EB016D41CA300F12B75 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7516D41CA300F12B75 /* ViewController_iPad.xib */; };
-		22209EB116D41CA300F12B75 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */; };
-		22209EB216D41CA300F12B75 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */; };
-		22209EB416D41CA300F12B75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7816D41CA300F12B75 /* ViewController.m */; };
-		22209ECC16D41FF900F12B75 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBA16D41FF900F12B75 /* AFHTTPClient.m */; };
-		22209ECD16D41FF900F12B75 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBA16D41FF900F12B75 /* AFHTTPClient.m */; };
-		22209ECE16D41FF900F12B75 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBC16D41FF900F12B75 /* AFHTTPRequestOperation.m */; };
-		22209ECF16D41FF900F12B75 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBC16D41FF900F12B75 /* AFHTTPRequestOperation.m */; };
-		22209ED016D41FF900F12B75 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBE16D41FF900F12B75 /* AFImageRequestOperation.m */; };
-		22209ED116D41FF900F12B75 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBE16D41FF900F12B75 /* AFImageRequestOperation.m */; };
-		22209ED216D41FF900F12B75 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC016D41FF900F12B75 /* AFJSONRequestOperation.m */; };
-		22209ED316D41FF900F12B75 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC016D41FF900F12B75 /* AFJSONRequestOperation.m */; };
-		22209ED416D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC216D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m */; };
-		22209ED516D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC216D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m */; };
-		22209ED616D41FF900F12B75 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC516D41FF900F12B75 /* AFPropertyListRequestOperation.m */; };
-		22209ED716D41FF900F12B75 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC516D41FF900F12B75 /* AFPropertyListRequestOperation.m */; };
-		22209ED816D41FF900F12B75 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC716D41FF900F12B75 /* AFURLConnectionOperation.m */; };
-		22209ED916D41FF900F12B75 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC716D41FF900F12B75 /* AFURLConnectionOperation.m */; };
-		22209EDA16D41FF900F12B75 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC916D41FF900F12B75 /* AFXMLRequestOperation.m */; };
-		22209EDB16D41FF900F12B75 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC916D41FF900F12B75 /* AFXMLRequestOperation.m */; };
-		22209EDC16D41FF900F12B75 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209ECB16D41FF900F12B75 /* UIImageView+AFNetworking.m */; };
-		22209EDD16D41FF900F12B75 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209ECB16D41FF900F12B75 /* UIImageView+AFNetworking.m */; };
 		224F0EBB16C80BCE00E862B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBA16C80BCE00E862B7 /* UIKit.framework */; };
 		224F0EBD16C80BCE00E862B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBC16C80BCE00E862B7 /* Foundation.framework */; };
 		224F0EBF16C80BCE00E862B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBE16C80BCE00E862B7 /* CoreGraphics.framework */; };
 		224F0EC516C80BCE00E862B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224F0EC316C80BCE00E862B7 /* InfoPlist.strings */; };
 		224F0ECB16C80BCF00E862B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0ECA16C80BCF00E862B7 /* AppDelegate.m */; };
-		224F0ED416C80BCF00E862B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0ED316C80BCF00E862B7 /* ViewController.m */; };
-		224F0EE216C80BCF00E862B7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */; };
+		224F0EE216C80BCF00E862B7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		224F0EE316C80BCF00E862B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBA16C80BCE00E862B7 /* UIKit.framework */; };
 		224F0EE416C80BCF00E862B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EBC16C80BCE00E862B7 /* Foundation.framework */; };
 		224F0EEC16C80BCF00E862B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224F0EEA16C80BCF00E862B7 /* InfoPlist.strings */; };
 		224F0EEF16C80BCF00E862B7 /* RedditImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */; };
-		22AAB0F516D41ADD0081AE78 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 22AAB0F416D41ADD0081AE78 /* Images */; };
+		227CFEE716D42B980036DCC6 /* MemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227CFEE616D42B980036DCC6 /* MemeTests.m */; };
+		227CFF0216D4B46A0036DCC6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		227CFF0416D4B49E0036DCC6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227CFF0316D4B49E0036DCC6 /* SystemConfiguration.framework */; };
+		227CFF0616D4B4A50036DCC6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227CFF0516D4B4A50036DCC6 /* MobileCoreServices.framework */; };
 		22BDF3F116C818E800D4A5D7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDF3F016C818E800D4A5D7 /* ImageIO.framework */; };
 		22BDF3F316C818F300D4A5D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDF3F216C818F300D4A5D7 /* MapKit.framework */; };
+		22C9F83116D550C200A30276 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBC16D41FF900F12B75 /* AFHTTPRequestOperation.m */; };
+		22C9F83216D550D400A30276 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBA16D41FF900F12B75 /* AFHTTPClient.m */; };
+		22C9F83316D550D400A30276 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EBE16D41FF900F12B75 /* AFImageRequestOperation.m */; };
+		22C9F83416D550D400A30276 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC216D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m */; };
+		22C9F83516D550D400A30276 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC516D41FF900F12B75 /* AFPropertyListRequestOperation.m */; };
+		22C9F83616D550D400A30276 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC716D41FF900F12B75 /* AFURLConnectionOperation.m */; };
+		22C9F83716D550D400A30276 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC916D41FF900F12B75 /* AFXMLRequestOperation.m */; };
+		22C9F83816D550D400A30276 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209ECB16D41FF900F12B75 /* UIImageView+AFNetworking.m */; };
+		22C9F83916D550E900A30276 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209EC016D41FF900F12B75 /* AFJSONRequestOperation.m */; };
+		22C9F83A16D550F600A30276 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6016D41CA300F12B75 /* MKAnnotationView+WebCache.m */; };
+		22C9F83B16D550F600A30276 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6216D41CA300F12B75 /* SDImageCache.m */; };
+		22C9F83C16D550F600A30276 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6516D41CA300F12B75 /* SDWebImageCompat.m */; };
+		22C9F83D16D550F600A30276 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6716D41CA300F12B75 /* SDWebImageDecoder.m */; };
+		22C9F83E16D550F600A30276 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6916D41CA300F12B75 /* SDWebImageDownloader.m */; };
+		22C9F83F16D550F600A30276 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6B16D41CA300F12B75 /* SDWebImageDownloaderOperation.m */; };
+		22C9F84016D550F600A30276 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E6D16D41CA300F12B75 /* SDWebImageManager.m */; };
+		22C9F84116D550F600A30276 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7016D41CA300F12B75 /* SDWebImagePrefetcher.m */; };
+		22C9F84216D550F600A30276 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7216D41CA300F12B75 /* UIButton+WebCache.m */; };
+		22C9F84316D550F600A30276 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7416D41CA300F12B75 /* UIImageView+WebCache.m */; };
+		22C9F84416D550FE00A30276 /* Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E5A16D41CA300F12B75 /* Meme.m */; };
+		22C9F84916D5534100A30276 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E4916D41CA300F12B75 /* DejalActivityView.m */; };
+		22C9F84A16D5555500A30276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7816D41CA300F12B75 /* ViewController.m */; };
+		22C9F84B16D5578300A30276 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7516D41CA300F12B75 /* ViewController_iPad.xib */; };
+		22C9F84C16D5578300A30276 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		224F0EE516C80BCF00E862B7 /* PBXContainerItemProxy */ = {
+		22C9F84716D552B300A30276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 224F0EAD16C80BCE00E862B7 /* Project object */;
 			proxyType = 1;
@@ -102,15 +68,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22209E1716D41B7500F12B75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		22209E4416D41CA200F12B75 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RedditImageViewer/AppDelegate.h; sourceTree = "<group>"; };
-		22209E4516D41CA200F12B75 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RedditImageViewer/AppDelegate.m; sourceTree = "<group>"; };
 		22209E4716D41CA300F12B75 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		22209E4816D41CA300F12B75 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		22209E4916D41CA300F12B75 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		22209E4A16D41CA300F12B75 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		22209E4B16D41CA300F12B75 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		22209E4F16D41CA300F12B75 /* ImageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageClient.h; path = RedditImageViewer/ImageClient.h; sourceTree = "<group>"; };
 		22209E5116D41CA300F12B75 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		22209E5216D41CA300F12B75 /* Background.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.psd; sourceTree = "<group>"; };
 		22209E5316D41CA300F12B75 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
@@ -118,11 +80,9 @@
 		22209E5516D41CA300F12B75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		22209E5616D41CA300F12B75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		22209E5716D41CA300F12B75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		22209E5816D41CA300F12B75 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RedditImageViewer/main.m; sourceTree = "<group>"; };
-		22209E5916D41CA300F12B75 /* Meme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Meme.h; path = RedditImageViewer/Meme.h; sourceTree = "<group>"; };
-		22209E5A16D41CA300F12B75 /* Meme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Meme.m; path = RedditImageViewer/Meme.m; sourceTree = "<group>"; };
-		22209E5B16D41CA300F12B75 /* RedditImageViewer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RedditImageViewer-Info.plist"; path = "RedditImageViewer/RedditImageViewer-Info.plist"; sourceTree = "<group>"; };
-		22209E5C16D41CA300F12B75 /* RedditImageViewer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RedditImageViewer-Prefix.pch"; path = "RedditImageViewer/RedditImageViewer-Prefix.pch"; sourceTree = "<group>"; };
+		22209E5816D41CA300F12B75 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22209E5916D41CA300F12B75 /* Meme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meme.h; sourceTree = "<group>"; };
+		22209E5A16D41CA300F12B75 /* Meme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meme.m; sourceTree = "<group>"; };
 		22209E5F16D41CA300F12B75 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		22209E6016D41CA300F12B75 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		22209E6116D41CA300F12B75 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -144,10 +104,10 @@
 		22209E7216D41CA300F12B75 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
 		22209E7316D41CA300F12B75 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		22209E7416D41CA300F12B75 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		22209E7516D41CA300F12B75 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController_iPad.xib; path = RedditImageViewer/ViewController_iPad.xib; sourceTree = "<group>"; };
-		22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController_iPhone.xib; path = RedditImageViewer/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		22209E7716D41CA300F12B75 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RedditImageViewer/ViewController.h; sourceTree = "<group>"; };
-		22209E7816D41CA300F12B75 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = RedditImageViewer/ViewController.m; sourceTree = "<group>"; };
+		22209E7516D41CA300F12B75 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		22209E7716D41CA300F12B75 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22209E7816D41CA300F12B75 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22209EB916D41FF900F12B75 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		22209EBA16D41FF900F12B75 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		22209EBB16D41FF900F12B75 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -177,15 +137,16 @@
 		224F0EC816C80BCE00E862B7 /* RedditImageViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedditImageViewer-Prefix.pch"; sourceTree = "<group>"; };
 		224F0EC916C80BCE00E862B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		224F0ECA16C80BCF00E862B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		224F0ED216C80BCF00E862B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		224F0ED316C80BCF00E862B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		224F0EE016C80BCF00E862B7 /* RedditImageViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditImageViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224F0EE116C80BCF00E862B7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		224F0EE916C80BCF00E862B7 /* RedditImageViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditImageViewerTests-Info.plist"; sourceTree = "<group>"; };
 		224F0EEB16C80BCF00E862B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		224F0EED16C80BCF00E862B7 /* RedditImageViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditImageViewerTests.h; sourceTree = "<group>"; };
 		224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditImageViewerTests.m; sourceTree = "<group>"; };
-		22AAB0F416D41ADD0081AE78 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		227CFEE516D42B980036DCC6 /* MemeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeTests.h; sourceTree = "<group>"; };
+		227CFEE616D42B980036DCC6 /* MemeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeTests.m; sourceTree = "<group>"; };
+		227CFF0316D4B49E0036DCC6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		227CFF0516D4B4A50036DCC6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		22B4DED616CD36290056B649 /* ImageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageClient.h; sourceTree = "<group>"; };
 		22BDF3F016C818E800D4A5D7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		22BDF3F216C818F300D4A5D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -196,6 +157,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227CFF0616D4B4A50036DCC6 /* MobileCoreServices.framework in Frameworks */,
+				227CFF0416D4B49E0036DCC6 /* SystemConfiguration.framework in Frameworks */,
+				227CFF0216D4B46A0036DCC6 /* SenTestingKit.framework in Frameworks */,
 				22BDF3F316C818F300D4A5D7 /* MapKit.framework in Frameworks */,
 				22BDF3F116C818E800D4A5D7 /* ImageIO.framework in Frameworks */,
 				224F0EBB16C80BCE00E862B7 /* UIKit.framework in Frameworks */,
@@ -220,8 +184,8 @@
 		22209E1616D41B5A00F12B75 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				224F0ED216C80BCF00E862B7 /* ViewController.h */,
-				224F0ED316C80BCF00E862B7 /* ViewController.m */,
+				22209E7716D41CA300F12B75 /* ViewController.h */,
+				22209E7816D41CA300F12B75 /* ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -250,8 +214,7 @@
 				22209E5616D41CA300F12B75 /* Default.png */,
 				22209E5716D41CA300F12B75 /* Default@2x.png */,
 			);
-			name = Images;
-			path = RedditImageViewer/Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		22209E5E16D41CA300F12B75 /* SDWebImage */ = {
@@ -325,19 +288,6 @@
 				224F0EE716C80BCF00E862B7 /* RedditImageViewerTests */,
 				224F0EB916C80BCE00E862B7 /* Frameworks */,
 				224F0EB716C80BCE00E862B7 /* Products */,
-				22209E4416D41CA200F12B75 /* AppDelegate.h */,
-				22209E4516D41CA200F12B75 /* AppDelegate.m */,
-				22209E4F16D41CA300F12B75 /* ImageClient.h */,
-				22209E5016D41CA300F12B75 /* Images */,
-				22209E5816D41CA300F12B75 /* main.m */,
-				22209E5916D41CA300F12B75 /* Meme.h */,
-				22209E5A16D41CA300F12B75 /* Meme.m */,
-				22209E5B16D41CA300F12B75 /* RedditImageViewer-Info.plist */,
-				22209E5C16D41CA300F12B75 /* RedditImageViewer-Prefix.pch */,
-				22209E7516D41CA300F12B75 /* ViewController_iPad.xib */,
-				22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */,
-				22209E7716D41CA300F12B75 /* ViewController.h */,
-				22209E7816D41CA300F12B75 /* ViewController.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -356,6 +306,8 @@
 				22209EB816D41FF900F12B75 /* AFNetworking */,
 				22209E4616D41CA300F12B75 /* DejalActivityView */,
 				22209E5E16D41CA300F12B75 /* SDWebImage */,
+				227CFF0516D4B4A50036DCC6 /* MobileCoreServices.framework */,
+				227CFF0316D4B49E0036DCC6 /* SystemConfiguration.framework */,
 				22BDF3F216C818F300D4A5D7 /* MapKit.framework */,
 				22BDF3F016C818E800D4A5D7 /* ImageIO.framework */,
 				224F0EBA16C80BCE00E862B7 /* UIKit.framework */,
@@ -369,6 +321,8 @@
 		224F0EC016C80BCE00E862B7 /* RedditImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				22209E5016D41CA300F12B75 /* Images */,
+				227CFEE416D424C80036DCC6 /* Model */,
 				224F0EC916C80BCE00E862B7 /* AppDelegate.h */,
 				224F0ECA16C80BCF00E862B7 /* AppDelegate.m */,
 				22209E1616D41B5A00F12B75 /* Controller */,
@@ -381,8 +335,9 @@
 		224F0EC116C80BCE00E862B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22209E1716D41B7500F12B75 /* Default-568h@2x.png */,
-				22AAB0F416D41ADD0081AE78 /* Images */,
+				22209E5816D41CA300F12B75 /* main.m */,
+				22209E7516D41CA300F12B75 /* ViewController_iPad.xib */,
+				22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */,
 				224F0EC216C80BCE00E862B7 /* RedditImageViewer-Info.plist */,
 				224F0EC316C80BCE00E862B7 /* InfoPlist.strings */,
 				224F0EC616C80BCE00E862B7 /* main.m */,
@@ -396,6 +351,8 @@
 			children = (
 				224F0EED16C80BCF00E862B7 /* RedditImageViewerTests.h */,
 				224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */,
+				227CFEE516D42B980036DCC6 /* MemeTests.h */,
+				227CFEE616D42B980036DCC6 /* MemeTests.m */,
 				224F0EE816C80BCF00E862B7 /* Supporting Files */,
 			);
 			path = RedditImageViewerTests;
@@ -408,6 +365,15 @@
 				224F0EEA16C80BCF00E862B7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227CFEE416D424C80036DCC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22209E5916D41CA300F12B75 /* Meme.h */,
+				22209E5A16D41CA300F12B75 /* Meme.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +408,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				224F0EE616C80BCF00E862B7 /* PBXTargetDependency */,
+				22C9F84816D552B300A30276 /* PBXTargetDependency */,
 			);
 			name = RedditImageViewerTests;
 			productName = RedditImageViewerTests;
@@ -481,8 +447,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C9F84B16D5578300A30276 /* ViewController_iPad.xib in Resources */,
+				22C9F84C16D5578300A30276 /* ViewController_iPhone.xib in Resources */,
 				224F0EC516C80BCE00E862B7 /* InfoPlist.strings in Resources */,
-				22AAB0F516D41ADD0081AE78 /* Images in Resources */,
 				22209E8516D41CA300F12B75 /* Background.png in Resources */,
 				22209E8716D41CA300F12B75 /* Background.psd in Resources */,
 				22209E8916D41CA300F12B75 /* Background@2x.png in Resources */,
@@ -490,8 +457,6 @@
 				22209E8D16D41CA300F12B75 /* Default-568h@2x.png in Resources */,
 				22209E8F16D41CA300F12B75 /* Default.png in Resources */,
 				22209E9116D41CA300F12B75 /* Default@2x.png in Resources */,
-				22209EAF16D41CA300F12B75 /* ViewController_iPad.xib in Resources */,
-				22209EB116D41CA300F12B75 /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,19 +465,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				224F0EEC16C80BCF00E862B7 /* InfoPlist.strings in Resources */,
-				22209E7C16D41CA300F12B75 /* .gitignore in Resources */,
-				22209E8016D41CA300F12B75 /* License.txt in Resources */,
-				22209E8216D41CA300F12B75 /* README.markdown in Resources */,
-				22209E8616D41CA300F12B75 /* Background.png in Resources */,
-				22209E8816D41CA300F12B75 /* Background.psd in Resources */,
-				22209E8A16D41CA300F12B75 /* Background@2x.png in Resources */,
-				22209E8C16D41CA300F12B75 /* button.png in Resources */,
-				22209E8E16D41CA300F12B75 /* Default-568h@2x.png in Resources */,
-				22209E9016D41CA300F12B75 /* Default.png in Resources */,
-				22209E9216D41CA300F12B75 /* Default@2x.png in Resources */,
-				22209E9816D41CA300F12B75 /* RedditImageViewer-Info.plist in Resources */,
-				22209EB016D41CA300F12B75 /* ViewController_iPad.xib in Resources */,
-				22209EB216D41CA300F12B75 /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,30 +491,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C9F84916D5534100A30276 /* DejalActivityView.m in Sources */,
+				22C9F84416D550FE00A30276 /* Meme.m in Sources */,
+				22C9F83A16D550F600A30276 /* MKAnnotationView+WebCache.m in Sources */,
+				22C9F83B16D550F600A30276 /* SDImageCache.m in Sources */,
+				22C9F83C16D550F600A30276 /* SDWebImageCompat.m in Sources */,
+				22C9F83D16D550F600A30276 /* SDWebImageDecoder.m in Sources */,
+				22C9F83E16D550F600A30276 /* SDWebImageDownloader.m in Sources */,
+				22C9F83F16D550F600A30276 /* SDWebImageDownloaderOperation.m in Sources */,
+				22C9F84016D550F600A30276 /* SDWebImageManager.m in Sources */,
+				22C9F84116D550F600A30276 /* SDWebImagePrefetcher.m in Sources */,
+				22C9F84216D550F600A30276 /* UIButton+WebCache.m in Sources */,
+				22C9F84316D550F600A30276 /* UIImageView+WebCache.m in Sources */,
+				22C9F83916D550E900A30276 /* AFJSONRequestOperation.m in Sources */,
+				22C9F83216D550D400A30276 /* AFHTTPClient.m in Sources */,
+				22C9F83316D550D400A30276 /* AFImageRequestOperation.m in Sources */,
+				22C9F83416D550D400A30276 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				22C9F83516D550D400A30276 /* AFPropertyListRequestOperation.m in Sources */,
+				22C9F83616D550D400A30276 /* AFURLConnectionOperation.m in Sources */,
+				22C9F83716D550D400A30276 /* AFXMLRequestOperation.m in Sources */,
+				22C9F83816D550D400A30276 /* UIImageView+AFNetworking.m in Sources */,
+				22C9F83116D550C200A30276 /* AFHTTPRequestOperation.m in Sources */,
 				224F0ECB16C80BCF00E862B7 /* AppDelegate.m in Sources */,
-				224F0ED416C80BCF00E862B7 /* ViewController.m in Sources */,
-				22209E7D16D41CA300F12B75 /* DejalActivityView.m in Sources */,
 				22209E9316D41CA300F12B75 /* main.m in Sources */,
-				22209E9516D41CA300F12B75 /* Meme.m in Sources */,
-				22209E9B16D41CA300F12B75 /* MKAnnotationView+WebCache.m in Sources */,
-				22209E9D16D41CA300F12B75 /* SDImageCache.m in Sources */,
-				22209E9F16D41CA300F12B75 /* SDWebImageCompat.m in Sources */,
-				22209EA116D41CA300F12B75 /* SDWebImageDecoder.m in Sources */,
-				22209EA316D41CA300F12B75 /* SDWebImageDownloader.m in Sources */,
-				22209EA516D41CA300F12B75 /* SDWebImageDownloaderOperation.m in Sources */,
-				22209EA716D41CA300F12B75 /* SDWebImageManager.m in Sources */,
-				22209EA916D41CA300F12B75 /* SDWebImagePrefetcher.m in Sources */,
-				22209EAB16D41CA300F12B75 /* UIButton+WebCache.m in Sources */,
-				22209EAD16D41CA300F12B75 /* UIImageView+WebCache.m in Sources */,
-				22209ECC16D41FF900F12B75 /* AFHTTPClient.m in Sources */,
-				22209ECE16D41FF900F12B75 /* AFHTTPRequestOperation.m in Sources */,
-				22209ED016D41FF900F12B75 /* AFImageRequestOperation.m in Sources */,
-				22209ED216D41FF900F12B75 /* AFJSONRequestOperation.m in Sources */,
-				22209ED416D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				22209ED616D41FF900F12B75 /* AFPropertyListRequestOperation.m in Sources */,
-				22209ED816D41FF900F12B75 /* AFURLConnectionOperation.m in Sources */,
-				22209EDA16D41FF900F12B75 /* AFXMLRequestOperation.m in Sources */,
-				22209EDC16D41FF900F12B75 /* UIImageView+AFNetworking.m in Sources */,
+				22C9F84A16D5555500A30276 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,40 +523,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				224F0EEF16C80BCF00E862B7 /* RedditImageViewerTests.m in Sources */,
-				22209E7A16D41CA300F12B75 /* AppDelegate.m in Sources */,
-				22209E7E16D41CA300F12B75 /* DejalActivityView.m in Sources */,
-				22209E9416D41CA300F12B75 /* main.m in Sources */,
-				22209E9616D41CA300F12B75 /* Meme.m in Sources */,
-				22209E9C16D41CA300F12B75 /* MKAnnotationView+WebCache.m in Sources */,
-				22209E9E16D41CA300F12B75 /* SDImageCache.m in Sources */,
-				22209EA016D41CA300F12B75 /* SDWebImageCompat.m in Sources */,
-				22209EA216D41CA300F12B75 /* SDWebImageDecoder.m in Sources */,
-				22209EA416D41CA300F12B75 /* SDWebImageDownloader.m in Sources */,
-				22209EA616D41CA300F12B75 /* SDWebImageDownloaderOperation.m in Sources */,
-				22209EA816D41CA300F12B75 /* SDWebImageManager.m in Sources */,
-				22209EAA16D41CA300F12B75 /* SDWebImagePrefetcher.m in Sources */,
-				22209EAC16D41CA300F12B75 /* UIButton+WebCache.m in Sources */,
-				22209EAE16D41CA300F12B75 /* UIImageView+WebCache.m in Sources */,
-				22209EB416D41CA300F12B75 /* ViewController.m in Sources */,
-				22209ECD16D41FF900F12B75 /* AFHTTPClient.m in Sources */,
-				22209ECF16D41FF900F12B75 /* AFHTTPRequestOperation.m in Sources */,
-				22209ED116D41FF900F12B75 /* AFImageRequestOperation.m in Sources */,
-				22209ED316D41FF900F12B75 /* AFJSONRequestOperation.m in Sources */,
-				22209ED516D41FF900F12B75 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				22209ED716D41FF900F12B75 /* AFPropertyListRequestOperation.m in Sources */,
-				22209ED916D41FF900F12B75 /* AFURLConnectionOperation.m in Sources */,
-				22209EDB16D41FF900F12B75 /* AFXMLRequestOperation.m in Sources */,
-				22209EDD16D41FF900F12B75 /* UIImageView+AFNetworking.m in Sources */,
+				227CFEE716D42B980036DCC6 /* MemeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		224F0EE616C80BCF00E862B7 /* PBXTargetDependency */ = {
+		22C9F84816D552B300A30276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 224F0EB516C80BCE00E862B7 /* RedditImageViewer */;
-			targetProxy = 224F0EE516C80BCF00E862B7 /* PBXContainerItemProxy */;
+			targetProxy = 22C9F84716D552B300A30276 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -683,6 +612,10 @@
 		224F0EF316C80BCF00E862B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RedditImageViewer/RedditImageViewer-Prefix.pch";
 				INFOPLIST_FILE = "RedditImageViewer/RedditImageViewer-Info.plist";
@@ -694,6 +627,10 @@
 		224F0EF416C80BCF00E862B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RedditImageViewer/RedditImageViewer-Prefix.pch";
 				INFOPLIST_FILE = "RedditImageViewer/RedditImageViewer-Info.plist";
@@ -707,6 +644,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedditImageViewer.app/RedditImageViewer";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -724,6 +662,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedditImageViewer.app/RedditImageViewer";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
