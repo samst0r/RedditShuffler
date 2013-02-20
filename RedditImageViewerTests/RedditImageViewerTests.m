@@ -30,9 +30,5 @@
     [super tearDown];
 }
 
-- (void)testThatJSONURLIsValid
-{
-    STFail(@"Unit tests are not implemented yet in RedditImageViewerTests");
-}
 
 @end

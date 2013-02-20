@@ -55,6 +55,15 @@
 		22C9F84A16D5555500A30276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22209E7816D41CA300F12B75 /* ViewController.m */; };
 		22C9F84B16D5578300A30276 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7516D41CA300F12B75 /* ViewController_iPad.xib */; };
 		22C9F84C16D5578300A30276 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22209E7616D41CA300F12B75 /* ViewController_iPhone.xib */; };
+		22C9F85C16D5840600A30276 /* RedditCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F85B16D5840600A30276 /* RedditCommunicator.m */; };
+		22C9F85D16D5840600A30276 /* RedditCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F85B16D5840600A30276 /* RedditCommunicator.m */; };
+		22C9F86016D584DB00A30276 /* RedditCommunicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F85F16D584DB00A30276 /* RedditCommunicatorTests.m */; };
+		22C9F86316D5861800A30276 /* MemeBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F86216D5861800A30276 /* MemeBuilderTest.m */; };
+		22C9F86616D586DD00A30276 /* RedditManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F86516D586DC00A30276 /* RedditManagerTests.m */; };
+		22C9F86916D586EC00A30276 /* RedditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F86816D586EB00A30276 /* RedditManager.m */; };
+		22C9F86A16D586EC00A30276 /* RedditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F86816D586EB00A30276 /* RedditManager.m */; };
+		22C9F86D16D58B9A00A30276 /* MockRedditCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F86C16D58B9A00A30276 /* MockRedditCommunicator.m */; };
+		22C9F87916D58F9000A30276 /* MockRedditManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9F87816D58F9000A30276 /* MockRedditManagerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +159,21 @@
 		22B4DED616CD36290056B649 /* ImageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageClient.h; sourceTree = "<group>"; };
 		22BDF3F016C818E800D4A5D7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		22BDF3F216C818F300D4A5D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		22C9F85A16D5840600A30276 /* RedditCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedditCommunicator.h; path = RedditImageViewerTests/RedditCommunicator.h; sourceTree = SOURCE_ROOT; };
+		22C9F85B16D5840600A30276 /* RedditCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedditCommunicator.m; path = RedditImageViewerTests/RedditCommunicator.m; sourceTree = SOURCE_ROOT; };
+		22C9F85E16D584DB00A30276 /* RedditCommunicatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditCommunicatorTests.h; sourceTree = "<group>"; };
+		22C9F85F16D584DB00A30276 /* RedditCommunicatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditCommunicatorTests.m; sourceTree = "<group>"; };
+		22C9F86116D5861800A30276 /* MemeBuilderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeBuilderTest.h; sourceTree = "<group>"; };
+		22C9F86216D5861800A30276 /* MemeBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeBuilderTest.m; sourceTree = "<group>"; };
+		22C9F86416D586DC00A30276 /* RedditManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditManagerTests.h; sourceTree = "<group>"; };
+		22C9F86516D586DC00A30276 /* RedditManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditManagerTests.m; sourceTree = "<group>"; };
+		22C9F86716D586EB00A30276 /* RedditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditManager.h; sourceTree = "<group>"; };
+		22C9F86816D586EB00A30276 /* RedditManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditManager.m; sourceTree = "<group>"; };
+		22C9F86B16D58B9900A30276 /* MockRedditCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MockRedditCommunicator.h; path = ../RedditImageViewer/MockRedditCommunicator.h; sourceTree = "<group>"; };
+		22C9F86C16D58B9A00A30276 /* MockRedditCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MockRedditCommunicator.m; path = ../RedditImageViewer/MockRedditCommunicator.m; sourceTree = "<group>"; };
+		22C9F87616D58F6E00A30276 /* RedditManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditManagerDelegate.h; sourceTree = "<group>"; };
+		22C9F87716D58F9000A30276 /* MockRedditManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRedditManagerDelegate.h; sourceTree = "<group>"; };
+		22C9F87816D58F9000A30276 /* MockRedditManagerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRedditManagerDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +345,9 @@
 		224F0EC016C80BCE00E862B7 /* RedditImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				22C9F87616D58F6E00A30276 /* RedditManagerDelegate.h */,
+				22C9F85A16D5840600A30276 /* RedditCommunicator.h */,
+				22C9F85B16D5840600A30276 /* RedditCommunicator.m */,
 				22209E5016D41CA300F12B75 /* Images */,
 				227CFEE416D424C80036DCC6 /* Model */,
 				224F0EC916C80BCE00E862B7 /* AppDelegate.h */,
@@ -328,6 +355,8 @@
 				22209E1616D41B5A00F12B75 /* Controller */,
 				22B4DED616CD36290056B649 /* ImageClient.h */,
 				224F0EC116C80BCE00E862B7 /* Supporting Files */,
+				22C9F86716D586EB00A30276 /* RedditManager.h */,
+				22C9F86816D586EB00A30276 /* RedditManager.m */,
 			);
 			path = RedditImageViewer;
 			sourceTree = "<group>";
@@ -349,11 +378,21 @@
 		224F0EE716C80BCF00E862B7 /* RedditImageViewerTests */ = {
 			isa = PBXGroup;
 			children = (
+				22C9F86B16D58B9900A30276 /* MockRedditCommunicator.h */,
+				22C9F86C16D58B9A00A30276 /* MockRedditCommunicator.m */,
 				224F0EED16C80BCF00E862B7 /* RedditImageViewerTests.h */,
 				224F0EEE16C80BCF00E862B7 /* RedditImageViewerTests.m */,
 				227CFEE516D42B980036DCC6 /* MemeTests.h */,
 				227CFEE616D42B980036DCC6 /* MemeTests.m */,
 				224F0EE816C80BCF00E862B7 /* Supporting Files */,
+				22C9F85E16D584DB00A30276 /* RedditCommunicatorTests.h */,
+				22C9F85F16D584DB00A30276 /* RedditCommunicatorTests.m */,
+				22C9F86116D5861800A30276 /* MemeBuilderTest.h */,
+				22C9F86216D5861800A30276 /* MemeBuilderTest.m */,
+				22C9F86416D586DC00A30276 /* RedditManagerTests.h */,
+				22C9F86516D586DC00A30276 /* RedditManagerTests.m */,
+				22C9F87716D58F9000A30276 /* MockRedditManagerDelegate.h */,
+				22C9F87816D58F9000A30276 /* MockRedditManagerDelegate.m */,
 			);
 			path = RedditImageViewerTests;
 			sourceTree = "<group>";
@@ -515,6 +554,8 @@
 				224F0ECB16C80BCF00E862B7 /* AppDelegate.m in Sources */,
 				22209E9316D41CA300F12B75 /* main.m in Sources */,
 				22C9F84A16D5555500A30276 /* ViewController.m in Sources */,
+				22C9F85C16D5840600A30276 /* RedditCommunicator.m in Sources */,
+				22C9F86916D586EC00A30276 /* RedditManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +565,13 @@
 			files = (
 				224F0EEF16C80BCF00E862B7 /* RedditImageViewerTests.m in Sources */,
 				227CFEE716D42B980036DCC6 /* MemeTests.m in Sources */,
+				22C9F85D16D5840600A30276 /* RedditCommunicator.m in Sources */,
+				22C9F86016D584DB00A30276 /* RedditCommunicatorTests.m in Sources */,
+				22C9F86316D5861800A30276 /* MemeBuilderTest.m in Sources */,
+				22C9F86616D586DD00A30276 /* RedditManagerTests.m in Sources */,
+				22C9F86A16D586EC00A30276 /* RedditManager.m in Sources */,
+				22C9F86D16D58B9A00A30276 /* MockRedditCommunicator.m in Sources */,
+				22C9F87916D58F9000A30276 /* MockRedditManagerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
