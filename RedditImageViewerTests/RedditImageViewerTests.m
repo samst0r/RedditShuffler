@@ -7,6 +7,12 @@
 //
 
 #import "RedditImageViewerTests.h"
+ #import "ViewController.h"
+@interface RedditImageViewerTests ()
+
+@property (weak, nonatomic) ViewController *viewController;
+
+@end
 
 @implementation RedditImageViewerTests
 
@@ -24,7 +30,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testThatJSONURLIsValid
 {
     STFail(@"Unit tests are not implemented yet in RedditImageViewerTests");
 }
