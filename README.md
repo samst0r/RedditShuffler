@@ -3,14 +3,9 @@ RedditShuffler
 
 Shuffle through Memes retrieved from JSON parsed from Reddits.
 
-Technologies 
-------------
+Using:
+- AFNetworking
+- SDWebImages
+- Dejal Loader
 
-This has been used to demonstrate the uses of the following:
-- Unit Testing
-- Design Patterns
-- Blocks 
-
-
-
-
+This version has been done as quick as possible to use as a base for the 'AddingDesignPatterns' branch.
